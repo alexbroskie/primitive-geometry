@@ -8,3 +8,11 @@
 * <font color="#9ae22e">**vector.py**</font> - Класс вектора с поддержкой оперторов суммы, вычитания, умножения (на скаляр и скалярное произведение векторов), равности и длины (len).
 * <font color="#9ae22e">**geomath.py**</font> - Модуль, который строит точки прямоугольника или квадрата с помощью точки центра, длины и ширины
 * <font color="#9ae22e">**rectangle.py/square.py**</font> - Модули для вычисления площади и периметра для прямоугольника/квадрата
+## /tests
+* <font color="#9ae22e">**vector_test.py**</font> - Юнит тесты для vector.py
+* <font color="#9ae22e">**geomath_test.py**</font> - Юнит тесты для geomath.py
+* <font color="#9ae22e">**rectangle_test.py/square_test.py**</font> - Юнит тесты для rectnangle.py/square.py
+
+# Тесты
+Запустите `run_tests.bat` чтобы запустить  все тесты.
+Выполните в терминале `python -m unittest -v tests/{module_test}.py` чтобы выполнить тесты для конкретного модуля `{module_test}`.
